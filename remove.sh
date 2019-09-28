@@ -7,6 +7,8 @@ adb shell pm uninstall -k --user 0 com.samsung.android.visionintelligence
 adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent
 adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent.dummy
 adb shell pm uninstall -k --user 0 com.samsung.android.bixbyvision.framework
+adb shell pm uninstall -k --user 0 com.samsung.android.app.settings.bixby
+adb shell pm uninstall -k --user 0 com.samsung.systemui.bixby2
 
 # SAMSUNG PASS / PAY
 adb shell pm uninstall -k --user 0 com.samsung.android.samsungpassautofill
@@ -90,3 +92,28 @@ adb shell pm uninstall -k --user 0 com.sec.android.app.launcher
 
 # Samsung Push
 adb shell pm uninstall -k --user 0 com.sec.spp.push
+
+# knox
+# adb shell pm uninstall -k --user 0 com.sec.enterprise.knox.attestation
+# adb shell pm uninstall -k --user 0 com.samsung.android.knox.containeragent
+# adb shell pm uninstall -k --user 0 com.samsung.knox.keychain
+adb shell pm uninstall -k --user 0 com.samsung.knox.securefolder
+# adb shell pm uninstall -k --user 0 com.samsung.android.knox.containerdesktop
+adb shell pm uninstall -k --user 0 com.samsung.android.knox.analytics.uploader
+# adb shell pm uninstall -k --user 0 com.knox.vpn.proxyhandler
+adb shell pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+# Unknown
+adb shell pm uninstall -k --user 0 com.samsung.android.app.galaxyfinder
+adb shell pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facear.preload
+adb shell pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facearframe.preload
+adb shell pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facearexpression.preload
+adb shell pm uninstall -k --user 0 com.samsung.android.stickercenter
+adb shell pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.stamp.preload
+adb shell pm uninstall -k --user 0 com.samsung.android.themestore
+adb shell pm uninstall -k --user 0 com.samsung.android.svoiceime
+adb shell pm uninstall -k --user 0 com.samsung.android.allshare.service.fileshare
+adb shell pm uninstall -k --user 0 com.samsung.android.allshare.service.mediashare
+adb shell pm uninstall -k --user 0 com.hiya.star
+adb shell pm uninstall -k --user 0 com.linkedin.android
+adb shell pm uninstall -k --user 0 com.samsung.android.scloud
