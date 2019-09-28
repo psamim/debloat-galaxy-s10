@@ -24,7 +24,7 @@ adb shell pm uninstall -k --user 0 flipboard.boxer.app
 # adb shell pm uninstall -k --user 0 com.samsung.android.da.daagent
 adb shell pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 adb shell pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
-# adb shell pm uninstall -k --user 0 com.samsung.android.smartswitchassistant
+adb shell pm uninstall -k --user 0 com.samsung.android.smartswitchassistant
 
 # PRINTING
 adb shell pm uninstall -k --user 0 com.android.bips
@@ -60,7 +60,8 @@ adb shell pm uninstall -k --user 0 com.sec.android.app.desktoplauncher
 adb shell pm uninstall -k --user 0 com.dsi.ant.service.socket
 adb shell pm uninstall -k --user 0 com.dsi.ant.sample.acquirechannels
 adb shell pm uninstall -k --user 0 com.dsi.ant.plugins.antplus
-adb shell pm uninstall -k --user 0 com.dsi.ant.server
+# DO NOT UNCOMMENT THIS, causes to reboot on work profiles
+# adb shell pm uninstall -k --user 0 com.dsi.ant.server
 
 # Homescreen widget
 adb shell pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps 
@@ -69,13 +70,13 @@ adb shell pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps
 adb shell pm uninstall -k --user 0 com.samsung.android.mateagent 
 
 # Smart Switch component.
-# adb shell pm uninstall -k --user 0 com.sec.android.easyMover.Agent
+adb shell pm uninstall -k --user 0 com.sec.android.easyMover.Agent
 
 # Galaxy Wearable
 adb shell pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub 
 
 # S Weather. Odd name.
-# adb shell pm uninstall -k --user 0 com.sec.android.daemonapp 
+adb shell pm uninstall -k --user 0 com.sec.android.daemonapp 
 
 # What's New
 adb shell pm uninstall -k --user 0 com.samsung.android.app.social 
