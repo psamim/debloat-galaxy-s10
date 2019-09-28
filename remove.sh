@@ -62,22 +62,22 @@ adb shell pm uninstall -k --user 0 com.dsi.ant.sample.acquirechannels
 adb shell pm uninstall -k --user 0 com.dsi.ant.plugins.antplus
 adb shell pm uninstall -k --user 0 com.dsi.ant.server
 
-# Homescreen widget. Not crucial.
+# Homescreen widget
 adb shell pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps 
 
-# Galaxy Friends. Junk.
+# Galaxy Friends
 adb shell pm uninstall -k --user 0 com.samsung.android.mateagent 
 
 # Smart Switch component.
 # adb shell pm uninstall -k --user 0 com.sec.android.easyMover.Agent
 
-# Galaxy Wearable. Junk.
+# Galaxy Wearable
 adb shell pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub 
 
 # S Weather. Odd name.
 # adb shell pm uninstall -k --user 0 com.sec.android.daemonapp 
 
-# What's New. Junk.
+# What's New
 adb shell pm uninstall -k --user 0 com.samsung.android.app.social 
 
 # Microsoft
