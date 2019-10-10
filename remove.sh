@@ -22,8 +22,8 @@ adb shell pm uninstall -k --user 0 com.samsung.android.aremoji
 adb shell pm uninstall -k --user 0 com.google.ar.core
 adb shell pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
 adb shell pm uninstall -k --user 0 flipboard.boxer.app
-# adb shell pm uninstall -k --user 0 com.samsung.android.wellbeing
-# adb shell pm uninstall -k --user 0 com.samsung.android.da.daagent
+adb shell pm uninstall -k --user 0 com.samsung.android.wellbeing
+adb shell pm uninstall -k --user 0 com.samsung.android.da.daagent
 adb shell pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 adb shell pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
 adb shell pm uninstall -k --user 0 com.samsung.android.smartswitchassistant
